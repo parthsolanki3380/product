@@ -104,29 +104,14 @@ Route::group(['prefix' => 'product', 'as' => 'product.'],function(){
 	Route::get('/edit/{id}','ContactController@edit')->name('edit');
 	Route::put('/update/{id}','ContactController@update')->name('update');
 	Route::put('/delete/{id}','ContactController@delete')->name('delete');
-	// Route::get('/show/{id}','ContactController@show')->name('show');
+    Route::get('/show/{id}','ContactController@show')->name('show');
 
 	Route::get('genratepdf/{id}','OrderController@generatePdf')->name('genratepdf');
+			
+					
+		});
+
 	
-					
-					
-				});
-
-	Route::group(['prefix' => 'contact', 'as' => 'contact.'],function(){
-
-	Route::get('/index/','ContactController@index')->name('index');
-	Route::get('/create/','ContactController@create')->name('create');
-	Route::post('/store/','ContactController@store')->name('store');
-	Route::get('/edit/{id}','ContactController@edit')->name('edit');
-	Route::put('/update/{id}','ContactController@update')->name('update');
-	Route::put('/delete/{id}','ContactController@delete')->name('delete');
-	// Route::get('/show/{id}','ContactController@show')->name('show');
-
-	Route::get('genratepdf/{id}','OrderController@generatePdf')->name('genratepdf');
-	
-					
-					
-				});
 	
 				Route::group(['prefix' => 'inventory', 'as' => 'inventory.'],function(){
 

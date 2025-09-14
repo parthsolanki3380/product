@@ -426,7 +426,6 @@
                                      
                                 <li class="kt-menu__item  kt-menu__item--active " aria-haspopup="true"><a href="{{route('customer.index')}}" class="kt-menu__link "><span class="kt-menu__link-text">Customer</span></a></li>
                                  
-                                <li class="kt-menu__item  kt-menu__item--active " aria-haspopup="true"><a href="{{route('contact.index')}}" class="kt-menu__link "><span class="kt-menu__link-text">Contact</span></a></li>
                                  
                                 <li class="kt-menu__item  kt-menu__item--active " aria-haspopup="true"><a href="{{route('sells.index')}}" class="kt-menu__link "><span class="kt-menu__link-text">Sale</span></a></li>
                                  

@@ -492,7 +492,7 @@ ALTER TABLE `products`
 --
 -- AUTO_INCREMENT for table `sells`
 --
-ALTER TABLE `sells`
+ALTER TABLE `sells`smartphone
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
