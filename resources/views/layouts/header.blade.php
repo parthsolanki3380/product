@@ -431,7 +431,7 @@
                                  
                                 <li class="kt-menu__item  kt-menu__item--active " aria-haspopup="true"><a href="{{route('inventory.index')}}" class="kt-menu__link "><span class="kt-menu__link-text">Inventory</span></a></li>
                                 
-                                    
+                                
 
                                     </ul>
 
